@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BASE_URL = "http://localhost:3000/api";
+const BASE_URL = "https://todo-app-fullstack-jtp2.onrender.com/api";
 const api = axios.create({
     baseURL: BASE_URL,
     headers:{
